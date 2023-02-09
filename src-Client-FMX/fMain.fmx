@@ -1,0 +1,127 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'FMX Sample Project'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object lblCurrentLanguage: TLabel
+    Align = Bottom
+    Margins.Left = 5.000000000000000000
+    Margins.Top = 5.000000000000000000
+    Margins.Right = 5.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Position.X = 5.000000000000000000
+    Position.Y = 458.000000000000000000
+    Size.Width = 630.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'lblCurrentLanguage'
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Jules Verne bibliography from Wikipedia available at '
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Align = Top
+    StyledSettings = [Family]
+    HitTest = True
+    Position.Y = 17.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {04040000000000000004000000}
+    TextSettings.FontColor = claBlue
+    Text = 'https://en.wikipedia.org/wiki/Jules_Verne_bibliography'
+    TabOrder = 3
+    OnClick = Label2Click
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Lines.Strings = (
+      
+        'Jules Verne (1828'#8211'1905) was a French novelist, poet, and playwri' +
+        'ght. Most famous for his novel sequence, the Voyages Extraordina' +
+        'ires, Verne also wrote assorted short stories, plays, miscellane' +
+        'ous novels, essays, and poetry. His works are notable for their ' +
+        'profound influence on science fiction and on surrealism, their i' +
+        'nnovative use of modernist literary techniques such as self-refl' +
+        'exivity, and their complex combination of positivist and romanti' +
+        'c ideologies.'
+      ''
+      
+        'Unless otherwise referenced, the information presented here is d' +
+        'erived from the research of Volker Dehs, Jean-Michel Margot, Zvi' +
+        ' Har'#8217'El, and William Butcher.')
+    ReadOnly = True
+    TextSettings.WordWrap = True
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 419.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Viewport.Width = 636.000000000000000000
+    Viewport.Height = 415.000000000000000000
+  end
+  object MainMenu1: TMainMenu
+    Left = 304
+    Top = 224
+    object mnuFichier: TMenuItem
+      Text = 'File'
+      object mnuQuitter: TMenuItem
+        Locked = True
+        Text = 'Quit'
+      end
+    end
+    object mnuOutils: TMenuItem
+      Text = 'Tools'
+      object mnuOptions: TMenuItem
+        Locked = True
+        Text = 'Options'
+        OnClick = mnuOptionsClick
+      end
+    end
+    object mnuLangues: TMenuItem
+      Locked = True
+      Text = 'Language'
+      object mnuFrancais: TMenuItem
+        Locked = True
+        Text = 'French'
+        OnClick = mnuFrancaisClick
+      end
+      object mnuAnglais: TMenuItem
+        Locked = True
+        Text = 'English'
+        OnClick = mnuAnglaisClick
+      end
+      object mnuItalien: TMenuItem
+        Locked = True
+        Text = 'Italian'
+        OnClick = mnuItalienClick
+      end
+      object mnuMyLanguage: TMenuItem
+        Locked = True
+        Text = 'My language'
+        OnClick = mnuMyLanguageClick
+      end
+    end
+    object mnuAide: TMenuItem
+      Text = 'Help'
+      object mnuAPropos: TMenuItem
+        Locked = True
+        Text = 'About'
+        OnClick = mnuAProposClick
+      end
+    end
+  end
+end
