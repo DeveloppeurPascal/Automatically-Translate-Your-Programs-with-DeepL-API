@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D2C36746-03DA-4FDC-84EE-797B58D7FA8A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="src-Server\DeepLProxyServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="src-Client-FMX\FMXSampleProject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="src-Client-VCL\VCLSampleProject.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DeepLProxyServer">
+        <MSBuild Projects="src-Server\DeepLProxyServer.dproj"/>
+    </Target>
+    <Target Name="DeepLProxyServer:Clean">
+        <MSBuild Projects="src-Server\DeepLProxyServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DeepLProxyServer:Make">
+        <MSBuild Projects="src-Server\DeepLProxyServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXSampleProject">
+        <MSBuild Projects="src-Client-FMX\FMXSampleProject.dproj"/>
+    </Target>
+    <Target Name="FMXSampleProject:Clean">
+        <MSBuild Projects="src-Client-FMX\FMXSampleProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXSampleProject:Make">
+        <MSBuild Projects="src-Client-FMX\FMXSampleProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="VCLSampleProject">
+        <MSBuild Projects="src-Client-VCL\VCLSampleProject.dproj"/>
+    </Target>
+    <Target Name="VCLSampleProject:Clean">
+        <MSBuild Projects="src-Client-VCL\VCLSampleProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="VCLSampleProject:Make">
+        <MSBuild Projects="src-Client-VCL\VCLSampleProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DeepLProxyServer;FMXSampleProject;VCLSampleProject"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DeepLProxyServer:Clean;FMXSampleProject:Clean;VCLSampleProject:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DeepLProxyServer:Make;FMXSampleProject:Make;VCLSampleProject:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
