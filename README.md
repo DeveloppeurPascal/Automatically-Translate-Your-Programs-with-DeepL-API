@@ -1,30 +1,30 @@
-# Delphi-Projects-Template
+# Automatically Translate Your Programs with DeepL API (DelphiCon 2023)
 
 [Cette page en français.](LISEZMOI.md)
 
-A git template for my Delphi (or others) projects.
+Demo program for session "Automatically Translate Your Programs with DeepL API" of [DelphiCon 2023](https://lp.embarcadero.com/DelphiCon2023?utm_source=DeveloppeurPascal&utm_medium=email&utm_content=Webinar-230202-DelphiCon) online conference from 14 to 16 February 2023.
 
-This template is distributed under MIT license. The AGPL license is for projects I create from this code repository template. Use the license you want if you use the template.
+Many other solutions exist for Delphi developers to translate projects. Some of them were shown during a french webinar in June 2020. See the replay and follow the links directly from [this page](https://serialstreameur.fr/webinaire-20200625.php).
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
 ## Install
 
-To download this project you better should use "git" command but you also can download a ZIP from [its GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
-Pour télécharger ce projet il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis GitHub.
+To download this project you better should use "git" command but you also can download a ZIP from [its GitHub repository](https://github.com/DeveloppeurPascal/Automatically-Translate-Your-Programs-with-DeepL-API).
 
 **Warning :** if the project has submodules dependencies they wont be in the ZIP file. You'll have to download them manually.
 
 ## Dependencies
 
-This project depends on :
+This code repository has no direct dependencies but some parts are copies of units or projects available on the following code repositories:
 
-* project 1
-* project 2
+* [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) : various units, a kind of toolbox that you can use in your Delphi projects
+* [DeveloppeurPascal/DeepL-Delphi-client](https://github.com/DeveloppeurPascal/DeepL-Delphi-client) : client library in Delphi for the REST translation API provided by [DeepL](https://www.deepl.com)
+* [DeveloppeurPascal/Delphi-Translation-Library](https://github.com/DeveloppeurPascal/Delphi-Translation-Library) : automated translation library for Delphi projects and various tools related to project translation
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX) and [open a new issue](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/Automatically-Translate-Your-Programs-with-DeepL-API) and [open a new issue](https://github.com/DeveloppeurPascal/Automatically-Translate-Your-Programs-with-DeepL-API/issues).
 
 If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 
