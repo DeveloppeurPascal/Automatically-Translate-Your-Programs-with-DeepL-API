@@ -2,7 +2,7 @@
 
 [This page in english.](README.md)
 
-Programme de démonstration pour la session "Automatically Translate Your Programs with DeepL API" de la conférence [DelphiCon 2023](https://lp.embarcadero.com/DelphiCon2023?utm_source=DeveloppeurPascal&utm_medium=email&utm_content=Webinar-230202-DelphiCon) du 14 au 16 février 2023.
+Programme de démonstration pour la session "[Automatically Translate Your Programs with DeepL API](https://serialstreameur.fr/automatically-translate-your-programs-with-deepl-api.html)" de la conférence [DelphiCon 2023](https://www.youtube.com/playlist?list=PLwUPJvR9mZHgfgjbmKTSqeFRn5fIiM4_y) du 14 au 16 février 2023.
 
 De nombreuses autres solutions existent pour les développeurs Delphi pour traduire des projets. Certaines d'entre elles ont été présentées lors d'un webinaire français en juin 2020. Voir le replay et suivre les liens directement depuis [cette page] (https://serialstreameur.fr/webinaire-20200625.php).
 
