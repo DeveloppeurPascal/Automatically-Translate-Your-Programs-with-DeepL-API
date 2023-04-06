@@ -81,6 +81,7 @@ object frmMain: TfrmMain
       object mnuQuitter: TMenuItem
         Locked = True
         Text = 'Quit'
+        OnClick = mnuQuitterClick
       end
     end
     object mnuOutils: TMenuItem

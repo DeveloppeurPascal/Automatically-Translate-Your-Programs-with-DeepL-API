@@ -35,6 +35,7 @@ type
     procedure Label2Click(Sender: TObject);
     procedure mnuOptionsClick(Sender: TObject);
     procedure mnuAProposClick(Sender: TObject);
+    procedure mnuQuitterClick(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -91,6 +92,11 @@ end;
 procedure TfrmMain.mnuOptionsClick(Sender: TObject);
 begin
   frmDialog.Show;
+end;
+
+procedure TfrmMain.mnuQuitterClick(Sender: TObject);
+begin
+  close;
 end;
 
 procedure TfrmMain.TranslateTexts;
