@@ -19,7 +19,7 @@ Pour télécharger ce projet il est recommandé de passer par "git" mais vous po
 Ce dépôt de code n'a pas de dépendances directes mais certaines parties sont des copies d'unités ou projets disponibles sur les dépôts de code suivants :
 
 * [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) : unités diverses et variées, une sorte de boite à outils que vous pouvez utiliser dans vos projets Delphi
-* [DeveloppeurPascal/DeepL-Delphi-client](https://github.com/DeveloppeurPascal/DeepL-Delphi-client) : librairie cliente en Delphi pour l'API REST de traduction fournie par [DeepL](https://www.deepl.com)
+* [DeveloppeurPascal/DeepL4Delphi](https://github.com/DeveloppeurPascal/DeepL4Delphi) : librairie cliente en Delphi pour l'API REST de traduction fournie par [DeepL](https://www.deepl.com)
 * [DeveloppeurPascal/Delphi-Translation-Library](https://github.com/DeveloppeurPascal/Delphi-Translation-Library) : librairie de traduction automatisée pour projets Delphi et outils divers liés  la traduction de projets
 
 ## Comment demander une nouvelle fonctionnalité, signaler un bogue ou une faille de sécurité ?

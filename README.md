@@ -19,7 +19,7 @@ To download this project you better should use "git" command but you also can do
 This code repository has no direct dependencies but some parts are copies of units or projects available on the following code repositories:
 
 * [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) : various units, a kind of toolbox that you can use in your Delphi projects
-* [DeveloppeurPascal/DeepL-Delphi-client](https://github.com/DeveloppeurPascal/DeepL-Delphi-client) : client library in Delphi for the REST translation API provided by [DeepL](https://www.deepl.com)
+* [DeveloppeurPascal/DeepL4Delphi](https://github.com/DeveloppeurPascal/DeepL4Delphi) : client library in Delphi for the REST translation API provided by [DeepL](https://www.deepl.com)
 * [DeveloppeurPascal/Delphi-Translation-Library](https://github.com/DeveloppeurPascal/Delphi-Translation-Library) : automated translation library for Delphi projects and various tools related to project translation
 
 ## How to ask a new feature, report a bug or a security issue ?
