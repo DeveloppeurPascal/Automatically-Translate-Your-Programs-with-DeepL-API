@@ -4,6 +4,8 @@
 
 Programme de démonstration pour la session "[Automatically Translate Your Programs with DeepL API](https://serialstreameur.fr/automatically-translate-your-programs-with-deepl-api.html)" de la conférence [DelphiCon 2023](https://www.youtube.com/playlist?list=PLwUPJvR9mZHgfgjbmKTSqeFRn5fIiM4_y) du 14 au 16 février 2023.
 
+Une [version en français de cette présentation](https://serialstreameur.fr/traduire-automatiquement-ses-logiciels-avec-deepl-et-webbroker.html) est également disponible.
+
 De nombreuses autres solutions existent pour les développeurs Delphi pour traduire des projets. Certaines d'entre elles ont été présentées lors d'un webinaire français en juin 2020. Voir le replay et suivre les liens directement depuis [cette page](https://serialstreameur.fr/webinaire-20200625.php).
 
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).

@@ -4,6 +4,8 @@
 
 Demo program for session "[Automatically Translate Your Programs with DeepL API](https://serialstreameur.fr/automatically-translate-your-programs-with-deepl-api.html)" of [DelphiCon 2023](https://www.youtube.com/playlist?list=PLwUPJvR9mZHgfgjbmKTSqeFRn5fIiM4_y) online conference from 14 to 16 February 2023.
 
+[A French edition of this presentation](https://serialstreameur.fr/traduire-automatiquement-ses-logiciels-avec-deepl-et-webbroker.html) is also available.
+
 Many other solutions exist for Delphi developers to translate projects. Some of them were shown during a french webinar in June 2020. See the replay and follow the links directly from [this page](https://serialstreameur.fr/webinaire-20200625.php).
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
